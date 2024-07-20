@@ -1,0 +1,104 @@
+INIOLUWA JOHN ADEYINKA
+
+Contact:
+
+Mobile: +234 815 900 1098
+Email: boluwatifeeri@gmail.com
+LinkedIn: https://www.linkedin.com/in/inioluwa_john
+Github: https://www.github.com/johnniewhite
+WORK EXPERIENCE:
+
+Community Manager (August 2023 - Present)
+
+Dome Academy - Remote
+Established and managed Discord community, growing to 200 members in 3 months
+Increased user engagement by 90% and decreased member attrition by 70%
+Organized bi-weekly "#theGrind" webinars with average 50 participants
+Initiated partnerships with 5 other communities
+Frontend Developer (November 2022 - Present)
+
+BonSports Promotions and Events Limited - Abuja
+Redesigned website UI, increasing user engagement by 25% and decreasing bounce rate by 15%
+Integrated traffic monitoring plugin, reducing downtime by 20%
+Improved site load times by 30% and overall performance by 10%
+Fullstack Developer (Dec 2021 - July 2023)
+
+Thrive Hub - Ibadan (Remote)
+Designed and developed entire Thrive Hub website
+Implemented modern web technologies and best practices
+Managed both frontend and backend aspects
+Fullstack Developer (July 2021 - Dec 2021)
+
+ASCENT INNOVATION LAB: Ogun, Nigeria (Remote)
+Redesigned website, increasing user engagement by 40%
+Integrated Paystack API, reducing transaction times by 25%
+Implemented responsive design, contributing to 20% increase in program enrollments
+EXTRACURRICULAR ACTIVITIES:
+
+Core Team Member and ML Instructor - GDSC Caleb University (Aug 2023 - Present)
+
+Pioneered GDSC launch at Caleb University
+Served as Machine Learning Instructor
+Organized events and facilitated partnerships
+The Well Teachers Education Foundation (2022 - Present)
+
+Designed brand logo
+Built brand website, increasing online engagement by 40%
+Managed technical operations for annual Bootcamp
+EDUCATION:
+
+Caleb University (2020-2024)
+
+Bachelors Of Science - Computer Science
+SKILLS:
+
+Backend Development:
+
+JavaScript (Node.js), Express.js, PHP, Python (Flask), SQL, Firebase, Supabase
+Frontend Development:
+
+JavaScript (React), Next.js, HTML, CSS, Tailwind CSS
+AI/ML:
+
+Machine Learning, Data Analysis, Algorithms, System Analysis, Face Recognition, Document Verification, Fraud Detection, GPT models
+DevOps and Tools:
+
+Docker, Git, GitHub, MongoDB Atlas, Google Place API
+Miscellaneous:
+
+Python, Blockchain/DLT, WordPress, WebSocket, Multi-factor Authentication, OpenCV, Flask-Bcrypt, Flask-Login, Flask-WTF
+AI ENGINEERING EXPERIENCE AND PROJECTS:
+
+Face Recognition and Verification Project (2024)
+
+Developed a real-time face recognition system using face_recognition Python package.
+Integrated webcam functionality for continuous monitoring and face recognition.
+Implemented threading and logging to improve performance and maintain records.
+Utilized Gemini Flash API for generating profiles based on internet searches of recognized faces.
+Developed a GUI using Qt to avoid OpenGL driver issues and enhance user experience.
+Smart Boundary Monitoring System (2024)
+
+Built a system with two user types: Admin and User, for monitoring boundaries using Google Place API.
+Designed features for Admins to view dashboards, track user locations, and receive notifications for boundary breaches.
+Utilized MongoDB Atlas for data storage and implemented alert features with detailed timestamps.
+AI/ML Feature Development for TellerOne (2024)
+
+Implemented face and document verification as part of KYC and anomaly detection systems.
+Focused on fraud detection based on transaction monitoring.
+The Jurist Project (2024)
+
+Developed an AI chatbot to empower legal knowledge, including the Nigerian 1999 constitution and Criminal Code Act.
+Targeted at enhancing legal literacy and assistance for Nigerian citizens.
+Machine Learning Model Training (2024)
+
+Trained a model to generate music notes, poems, poetry, and various literature types.
+Chatbot and Scheduling Assistant Development (2024)
+
+Built a scheduling assistant to save events in .ics or .txt files.
+Developed a chatbot for recommending schools in the UK for immigrants, resolving CORS issues in the interface.
+Every Penny - Money Tracking System (2024)
+
+Developed a system for tracking daily expenses and categorizing data for better financial management.
+Blood Donors Management System (2024)
+
+Created a Flask application for hematology departments to log donor information and track statistics, including donor locations, blood types, and ages.
