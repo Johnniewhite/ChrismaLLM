@@ -1,9 +1,24 @@
 import torch
 
-def generate_text(model, tokenizer, prompt, max_length=50):
+def generate_response(model, tokenizer, prompt, resume_data):
     model.eval()
-    tokens = tokenizer.encode(prompt)
+    
+    # Prepare context
+    context = f"""Resume Data:
+Contact: {resume_data['contact']}
+Work Experience: {resume_data['work_experience']}
+Extracurricular Activities: {resume_data['extracurricular']}
+Education: {resume_data['education']}
+Skills: {', '.join([f"{k}: {v}" for k, v in resume_data['skills'].items()])}
+AI Engineering Experience and Projects: {resume_data['ai_projects']}
+
+Question: {prompt}
+Answer:"""
+    
+    tokens = tokenizer.encode(context)
     input_ids = torch.tensor(tokens).unsqueeze(0)
+    
+    max_length = 150  # Increased to allow for longer responses
     
     with torch.no_grad():
         for _ in range(max_length):
@@ -14,4 +29,9 @@ def generate_text(model, tokenizer, prompt, max_length=50):
             if next_token == tokenizer.tokenizer.eos_token_id:
                 break
     
-    return tokenizer.decode(input_ids.squeeze().tolist())
+    generated_text = tokenizer.decode(input_ids.squeeze().tolist())
+    
+    # Extract the answer part
+    answer = generated_text.split("Answer:")[-1].strip()
+    
+    return answer

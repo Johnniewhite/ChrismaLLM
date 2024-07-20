@@ -16,7 +16,10 @@ def train_model(model, tokenizer, data_file, batch_size=32, epochs=10, lr=0.001)
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=lr)
     
+    model.train()  # Set the model to training mode
+    
     for epoch in range(epochs):
+        total_loss = 0
         for batch, (input_data, target) in enumerate(dataloader):
             optimizer.zero_grad()
             output = model(input_data)
@@ -24,7 +27,11 @@ def train_model(model, tokenizer, data_file, batch_size=32, epochs=10, lr=0.001)
             loss.backward()
             optimizer.step()
             
+            total_loss += loss.item()
+            
             if batch % 100 == 0:
                 print(f'Epoch {epoch}, Batch {batch}, Loss: {loss.item()}')
-
+        
+        print(f'Epoch {epoch}, Average Loss: {total_loss / len(dataloader)}')
+    
     return model

@@ -1,26 +1,27 @@
-import os
 import re
 
-def load_data(data_dir):
-    data = []
-    for file_name in os.listdir(data_dir):
-        if file_name.endswith('.txt'):
-            with open(os.path.join(data_dir, file_name), 'r') as file:
-                data.append(file.read())
-    return ' '.join(data)
-
-
 def preprocess_text(text):
-    # convert to lowercase and remove special characters
-    text = re.sub(r'[^a-zA-Z0-9\s]', '', text.lower())
-    return text
+    # Convert to lowercase
+    text = text.lower()
+    # Remove special characters except for dots in email addresses
+    text = re.sub(r'(?<!\w)\.(?!\w)', '', text)  # Remove dots not in email addresses
+    text = re.sub(r'[^a-zA-Z0-9\s@.]', '', text)  # Remove other special characters
+    text = re.sub(r'\s+', ' ', text)  # Replace multiple spaces with a single space
+    return text.strip()
 
-def prepare_data(data_dir, output_file):
-    raw_text = load_data(data_dir)
+def prepare_data(raw_data, output_file):
+    # Join all sections of the resume into a single string
+    raw_text = " ".join(str(value) for value in raw_data.values())
     processed_text = preprocess_text(raw_text)
     
     with open(output_file, 'w') as f:
         f.write(processed_text)
 
 if __name__ == '__main__':
-    prepare_data('data/raw', 'data/processed/processed_data.txt')
+    # This is just for testing the module directly
+    sample_data = {
+        'contact': 'John Doe, johndoe@email.com',
+        'experience': 'Software Engineer, 5 years',
+        'education': 'BS in Computer Science'
+    }
+    prepare_data(sample_data, 'data/processed/processed_data.txt')

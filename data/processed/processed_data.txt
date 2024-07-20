@@ -1,0 +1,104 @@
+inioluwa john adeyinka
+
+contact
+
+mobile 234 815 900 1098
+email boluwatifeerigmailcom
+linkedin httpswwwlinkedincomininioluwajohn
+github httpswwwgithubcomjohnniewhite
+work experience
+
+community manager august 2023  present
+
+dome academy  remote
+established and managed discord community growing to 200 members in 3 months
+increased user engagement by 90 and decreased member attrition by 70
+organized biweekly thegrind webinars with average 50 participants
+initiated partnerships with 5 other communities
+frontend developer november 2022  present
+
+bonsports promotions and events limited  abuja
+redesigned website ui increasing user engagement by 25 and decreasing bounce rate by 15
+integrated traffic monitoring plugin reducing downtime by 20
+improved site load times by 30 and overall performance by 10
+fullstack developer dec 2021  july 2023
+
+thrive hub  ibadan remote
+designed and developed entire thrive hub website
+implemented modern web technologies and best practices
+managed both frontend and backend aspects
+fullstack developer july 2021  dec 2021
+
+ascent innovation lab ogun nigeria remote
+redesigned website increasing user engagement by 40
+integrated paystack api reducing transaction times by 25
+implemented responsive design contributing to 20 increase in program enrollments
+extracurricular activities
+
+core team member and ml instructor  gdsc caleb university aug 2023  present
+
+pioneered gdsc launch at caleb university
+served as machine learning instructor
+organized events and facilitated partnerships
+the well teachers education foundation 2022  present
+
+designed brand logo
+built brand website increasing online engagement by 40
+managed technical operations for annual bootcamp
+education
+
+caleb university 20202024
+
+bachelors of science  computer science
+skills
+
+backend development
+
+javascript nodejs expressjs php python flask sql firebase supabase
+frontend development
+
+javascript react nextjs html css tailwind css
+aiml
+
+machine learning data analysis algorithms system analysis face recognition document verification fraud detection gpt models
+devops and tools
+
+docker git github mongodb atlas google place api
+miscellaneous
+
+python blockchaindlt wordpress websocket multifactor authentication opencv flaskbcrypt flasklogin flaskwtf
+ai engineering experience and projects
+
+face recognition and verification project 2024
+
+developed a realtime face recognition system using facerecognition python package
+integrated webcam functionality for continuous monitoring and face recognition
+implemented threading and logging to improve performance and maintain records
+utilized gemini flash api for generating profiles based on internet searches of recognized faces
+developed a gui using qt to avoid opengl driver issues and enhance user experience
+smart boundary monitoring system 2024
+
+built a system with two user types admin and user for monitoring boundaries using google place api
+designed features for admins to view dashboards track user locations and receive notifications for boundary breaches
+utilized mongodb atlas for data storage and implemented alert features with detailed timestamps
+aiml feature development for tellerone 2024
+
+implemented face and document verification as part of kyc and anomaly detection systems
+focused on fraud detection based on transaction monitoring
+the jurist project 2024
+
+developed an ai chatbot to empower legal knowledge including the nigerian 1999 constitution and criminal code act
+targeted at enhancing legal literacy and assistance for nigerian citizens
+machine learning model training 2024
+
+trained a model to generate music notes poems poetry and various literature types
+chatbot and scheduling assistant development 2024
+
+built a scheduling assistant to save events in ics or txt files
+developed a chatbot for recommending schools in the uk for immigrants resolving cors issues in the interface
+every penny  money tracking system 2024
+
+developed a system for tracking daily expenses and categorizing data for better financial management
+blood donors management system 2024
+
+created a flask application for hematology departments to log donor information and track statistics including donor locations blood types and ages
