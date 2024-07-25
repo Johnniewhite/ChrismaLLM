@@ -1,0 +1,10 @@
+# Ignore model files
+models/trained_model.pth
+
+# Ignore other large or unnecessary files
+*.log
+*.csv
+*.data
+*.tmp
+
+models/
