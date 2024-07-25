@@ -1,11 +1,8 @@
 import re
 
 def preprocess_text(text):
-    # Convert to lowercase
-    text = text.lower()
-    # Remove special characters except for dots in email addresses
-    text = re.sub(r'(?<!\w)\.(?!\w)', '', text)  # Remove dots not in email addresses
-    text = re.sub(r'[^a-zA-Z0-9\s@.]', '', text)  # Remove other special characters
+    # Convert to lowercase, remove special characters and newlines
+    text = re.sub(r'[^a-zA-Z0-9\s]', '', text.lower())
     text = re.sub(r'\s+', ' ', text)  # Replace multiple spaces with a single space
     return text.strip()
 

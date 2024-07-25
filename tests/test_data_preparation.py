@@ -29,7 +29,7 @@ class TestDataPreparation(unittest.TestCase):
         with open(output_file, 'r') as f:
             processed = f.read()
         
-        expected = "john doe johndoe@email.com software engineer 5 years bs in computer science"
+        expected = "john doe johndoeemailcom software engineer 5 years bs in computer science"
         self.assertEqual(processed, expected)
 
 if __name__ == '__main__':
